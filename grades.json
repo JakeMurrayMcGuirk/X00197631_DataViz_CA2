@@ -1,0 +1,188 @@
+{"grades" : [
+    {
+    "semester" : "Semester 1",
+    "modules" : [
+        {
+            "module" : "Software Development 1",
+            "credits" : "5",
+            "grade" : "A"
+        },
+        {
+            "module" : "Computer Architecture",
+            "credits":"5",
+            "grade":"A"
+        },
+        {
+            "module":"Critical Skills Development",
+            "credits":"5",
+            "grade":"B"
+        },
+        {
+            "module":"Discrete Mathematics 1",
+            "credits":"5",
+            "grade":"B"
+        },
+        {
+            "module":"Database Fundamentals",
+            "credits":"5",
+            "grade":"A"
+        },
+        {
+            "module":"Operating System Fundamentals",
+            "credits":"5",
+            "grade":"B+"
+        }
+    ]
+},
+{
+    "semester":"Semester 2",
+    "modules" : [
+        {
+            "module" : "Software Development 2",
+            "credits" : "5",
+            "grade" : "A"
+        },
+        {
+            "module" : "Visual Design and User Experience",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Business and Information Systems",
+            "credits":"5",
+            "grade":"A"
+        },
+        {
+            "module":"Statistics",
+            "credits":"5",
+            "grade":"B"
+        },
+        {
+            "module":"Social Media and Communications",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Systems Analysis",
+            "credits":"5",
+            "grade":"B"
+        }
+    ]
+},
+{
+    "semester":"Semester 3",
+    "modules" : [
+        {
+            "module" : "Software Development 3",
+            "credits" : "5",
+            "grade" : "B+"
+        },
+        {
+            "module" : "Software Quality and Assurance Testing",
+            "credits":"5",
+            "grade":"B"
+        },
+        {
+            "module":"Network Fundamentals",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Advanced Database Technologies",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Discrete Mathematics 2",
+            "credits":"5",
+            "grade":"C+"
+        },
+        {
+            "module":"Client Side Web Development",
+            "credits":"5",
+            "grade":"B"
+        }
+    ]
+},
+{
+    "semester":"Semester 4",
+    "modules" : [
+        {
+            "module" : "Software Development 4",
+            "credits" : "5",
+            "grade" : "B-"
+        },
+        {
+            "module" : "Information Security",
+            "credits":"5",
+            "grade":"B"
+        },
+        {
+            "module":"Routing and Switching Essentials",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Data Administration and Analysis",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Management Science",
+            "credits":"5",
+            "grade":"A"
+        },
+        {
+            "module":"Project",
+            "credits":"5",
+            "grade":"C+"
+        }
+    ]
+},
+{
+    "semester":"Semester 5",
+    "modules" : [
+        {
+            "module" : "Operating Systems",
+            "credits" : "5",
+            "grade" : "B-"
+        },
+        {
+            "module" : "Cloud Services and Distributed Computing",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Data Structures and Algorithms",
+            "credits":"5",
+            "grade":"B"
+        },
+        {
+            "module":"Big Data Technologies",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Data Analysis",
+            "credits":"5",
+            "grade":"B+"
+        },
+        {
+            "module":"Server-Side Web Development",
+            "credits":"5",
+            "grade":"C+"
+        }
+    ]
+},
+{
+    "semester" : "Semester 6",
+    "modules" : [
+        {
+            "module":"Work Experience",
+            "credits":"60",
+            "grade":"PASS"
+        }
+    ]
+}
+]
+}

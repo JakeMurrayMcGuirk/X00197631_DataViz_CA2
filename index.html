@@ -1,0 +1,579 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jake Murray-McGuirk</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body class="bg-secondary">
+
+  <section id="introduction">
+    <div class="container-fluid p-5 bg-dark text-white text-center m-3">
+      <img class="d-block mx-auto m-4" src="images/linkedin_img.jpg" height="10%" width="10%">
+      <h1 class="display-5 fw-bold">Jake Murray-McGuirk</h1>
+      <h3>Final Year Comp Science Student - Data Analyst</h3>
+
+      <button class="btn btn-light" data-bs-toggle="modal" data-bs-target="#contactme">Contact</button>
+    </div>
+  </section>
+
+  <div class="modal fade" tabindex="-1" id="contactme">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">Contact Me</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="mb-3">
+              <label for="message-text" class="col-form-label">Message:</label>
+              <textarea class="form-control" id="message-text"></textarea>
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Send message</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-md bg-light navbar-light sticky-top">
+    <!--<a href="#" class="navbar-brand">Jake Murray-McGuirk  </a>-->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+          <a href="#introduction" class="nav-link active">Introduction</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#aboutme" class="nav-link">About Me</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#workexperience" class="nav-link">Work Experience</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#education" class="nav-link">Education</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#projects" class="nav-link">Projects</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#visualisations" class="nav-link">Visualisations</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#volunteering" class="nav-link">Volunteering</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#hobbies" class="nav-link">Hobbies and Interests</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#contact" class="nav-link">Contact</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!--About Me-->
+  <section class="mb-4" id="aboutme">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75">
+      <h3>About me</h3>
+      <p class="lead">I am a 21 year old final year Computer Science student at TU Dublin Tallaght, specialising in AI
+        and
+        Machine Learning. I've got a passion for anything computing, maths, data or sports related - preferably a
+        combination of all the above.</p>
+    </div>
+  </section>
+
+  <!--Work Experience-->
+  <section class="mb-4" id="workexperience">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75">
+      <h3>Work Experience</h3>
+      <!--Card items for both work experiences-->
+      <div class="container p-5" id="workexperiencecards">
+        <div class="row justify-content-start">
+          <div class="col-lg-9">
+            <div class="card bg-light mb-4 shadow-sm text-center">
+              <div class="card-body">
+                <h4 class="card-title">BMS</h4>
+                <h5>Data Analyst Intern</h5>
+                <h6 class="card-subtitle mb-2 text-muted">January 2025 - August 2025</h6>
+                <p class="card-text text-center">Responsible for creating data pipelines to automate the conversion of
+                  monthly inventory reports from 60+ CMOs into the standardised format that we have stored on SAP, using
+                  tools such as Tableau Prep Builder and Python. My team were responsible for managing around $1.8B of
+                  stock in these inventory reports, so accuracy was vital when making these pipelines. Also responsible
+                  for automation of other business processes within the broader supply chain team, such as creating and
+                  maintenance of data pipelines to aid with inventory reconciliation for some of the warehouses we work
+                  with.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-end">
+          <div class="col-lg-9">
+            <div class="card bg-light mb-4 shadow-sm text-center">
+              <div class="card-body">
+                <h4 class="card-title">Penneys</h4>
+                <h5>Retail Assistant</h5>
+                <h6 class="card-subtitle mb-2 text-muted">September 2022 - January 2025</h6>
+                <p class="card-text text-center">Working as a retail assistant in Penneys Tallaght. Primarily work in
+                  the
+                  stockroom, as well as plenty of experience in customer-facing role on shop floor.</p>
+                Key Responsibilities included:
+                <ul>
+                  <li>Receiving and processing of deliveries. Sorting of stock by department for filling by the
+                    fill-team.</li>
+                  <li>Handling and processing of delivery documentation. Kept photocopies of dockets and stored truck
+                    seals.</li>
+                  <li>Performed QC for courier deliveries of third-party goods, ensuring that quantities and SKUs
+                    matched
+                    between the provided docket and the package. Also performed QC on one pallet per week to ensure the
+                    quantity and SKUs of stock on the docket matched the quantity of stock and SKUs of stock on the
+                    pallet.</li>
+                  <li>Carried out health & safety checks on fire-exits and machinery to help ensure a safe working
+                    environment.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!--Education-->
+  <section class="mb-4" id="education">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75">
+      <h3>Education</h3>
+      <h4>TU Dublin - Tallaght</h4>
+      <h5>Computing with AI/ML</h5>
+      <!--Insert college logo somewhere here-->
+      <h6>September 2022 - May 2026</h6>
+      <p>Currently in my final year of studying Computing with AI and Machine Learning in TU Dublin - Tallaght Campus.
+        Due to graduate in 2026.</p>
+
+      <!--Dropdown menu for grades-->
+      <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Grades
+        </button>
+        <ul class="dropdown-menu">
+          <!--Dropdown Modals for different grades-->
+          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#semester1Modal">Semester 1</a>
+          </li>
+          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#semester2Modal">Semester 2</a>
+          </li>
+          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#semester3Modal">Semester 3</a>
+          </li>
+          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#semester4Modal">Semester 4</a>
+          </li>
+          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#semester5Modal">Semester 5</a>
+          </li>
+          <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#semester6Modal">Semester 6</a>
+          </li>
+        </ul>
+      </div>
+
+      <!--Modals for grades-->
+      <!--Modal for Semester 1-->
+      <div class="modal fade" id="semester1Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Semester 1 Grades</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="semester1Body">
+              <!--Inject grades with JS-->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Semester 2-->
+      <div class="modal fade" id="semester2Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Semester 2 Grades</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="semester2Body">
+              <!--Inject grades with JS-->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Semester 3-->
+      <div class="modal fade" id="semester3Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Semester 3 Grades</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="semester3Body">
+              <!--Inject grades with JS-->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Semester 4-->
+      <div class="modal fade" id="semester4Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Semester 4 Grades</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="semester4Body">
+              <!--Inject grades with JS.-->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Semester 5-->
+      <div class="modal fade" id="semester5Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Semester 5 Grades</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="semester5Body">
+              <!--Inject grades with JS-->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Modal for Semester 6-->
+      <div class="modal fade" id="semester6Modal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5">Semester 6 Grades</h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" id="semester6Body">
+              <!--Inject grades with JS-->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Projects-->
+  <section class="mb-4" id="projects">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75">
+      <h3>Projects</h3>
+      <h5>Data Pipeline @ BMS</h5>
+      <p>Created and maintained data pipelines to take inventory reports from the roughly 60 Contract Manufacturing
+        Organisations (CMOs) we worked with and convert them into the format that we had stored on SAP. These reports
+        came in a variety of formats and languages due to the global nature of the company. Initially used Tableau Prep
+        Builder to create flows that my team could use independently to convert the reports for the CMOs they managed. I
+        then migrated this work over to Python, which allowed for further automation, allowing the script to be
+        scheduled to run monthly and automatically/dynamically reading the files from a Sharepoint folder.
+        <br><strong>Tools used: </strong>Python, Tableau Prep Builder, MS Power Automate, in-house Sharepoint Python
+        Library.
+      </p>
+
+      <h5>Course Selling Project</h5>
+      <p>A group project involving the development of a website which allowed users to create and sell courses online. I
+        worked on the course enrolment feature, which allowed a user to enrol themselves in any given course, and get
+        information for any course by clicking on it.
+        <br><strong>Tools used: </strong>Python, Django (Python Library).
+      </p>
+    </div>
+  </section>
+
+  <!--Visualisations-->
+  <section class="mb-4" id="visualisations">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75">
+      <h3>Visualisations</h3>
+      <!--Insert pictures of visualisations I have made-->
+      <!--Insert carousel of visualisations for GAA teams-->
+
+      <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/rt_kilmacud.jpg" class="d-block w-100"
+              alt="Visual representation of statistics from a GAA game between Round Towers and Kilmacud Crokes that I made a few years ago. Date of game, age group and level kept anonymous.">
+          </div>
+          <div class="carousel-item">
+            <img src="images/RT Mnr Ladies vs Naomh Mearnog football (September 2022) (1).jpg" class="d-block w-100"
+              alt="Another visualisation I made for a Round Tower team a few years ago.">
+          </div>
+          <div class="carousel-item">
+            <img src="images/afl_viz.png" class="d-block w-100" alt="Visualisation of various stats from the AFL.">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!--Volunteering-->
+  <section class="mb-4" id="volunteering">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75">
+      <h3>Volunteering</h3>
+      <!--Cards for volunteering experiences-->
+      <div class="container p-5" id="volunteeringcards">
+        <div class="row justify-content-start">
+          <div class="col-lg-9">
+            <div class="card bg-light mb-4 shadow-sm text-center">
+              <div class="card-body">
+                <h4 class="card-title">Dublin GAA<!--<span class="badge bg-info float-end">Data Analyst Intern</span>-->
+                </h4>
+                <h5 class="card-text">Senior Men's Football - Performance Analyst</h5>
+                <h6 class="card-subtitle mb-2 text-muted">October 2025 - Present</h6>
+                <p class="card-text text-center">Responsible for recording statistics from games live on matchday and
+                  post-match for the Senior Men's footballers.</p>
+
+
+                <h4 class="card-title">Dublin GAA<!--<span class="badge bg-info float-end">Data Analyst Intern</span>-->
+                </h4>
+                <h5 class="card-text">Minor Hurling - Performance Analyst</h5>
+                <h6 class="card-subtitle mb-2 text-muted">January 2021 - May 2023</h6>
+                <p class="card-text text-center">Assisted with match-day data collection, performance tracking and
+                  delivery of statistics for the Dublin Minor Hurlers during inter-county fixtures, utilising tools such
+                  as PerformaSports for general stats collection, or a tally counter for possessions.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="row justify-content-end">
+          <div class="col-lg-9">
+            <div class="card bg-light mb-4 shadow-sm text-center">
+              <div class="card-body">
+                <h4 class="card-title">Round Tower GAA Clondalkin</h4>
+                <h5 class="card-text">Multiple Teams - Performance Analyst</h5>
+                <h6 class="card-subtitle mb-2 text-muted">February 2020 - September 2023</h6>
+                <p class="card-text text-center">Assisted with statistical, video and performance analysis for multiple
+                  teams at Round Tower GAA club between early 2020 to late 2023. Teams I assisted included the Senior
+                  Men's Footballers in the 2020 league campaign and 2021 championship campaign, Minor Men's Footballers
+                  in 2021 and 2023, Minor Ladies' Footballers in 2022 and the Adult Men's 4th Football team in 2020 and
+                  2021.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+  <!--<h4>Dublin GAA</h4>
+    <h5>Senior Men's Football Performance Analyst</h5>
+    <h6>2025-</h6>
+    <p>Responsible for recording statistics from games live on matchday and post-match for the Senior Men's footballers.</p>
+
+    <h5>Minor Hurling Performance Analyst</h5>
+    <h6>2021-2023</h6>
+    <p>Assisted with match-day data collection, performance tracking and delivery of statistics for the Dublin Minor Hurlers during inter-county fixtures, utilising tools such as PerformaSports for general stats collection, or a tally counter for possessions.</p>
+
+    <h4>Round Tower GAA</h4>
+    <h5>Performance Analyst - Multiple teams</h5>
+    <h6>February 2020 - September 2023</h6>
+    <p>Assisted with statistical, video and performance analysis for multiple teams at Round Tower GAA club between early 2020 to late 2023. Teams I assisted included the Senior Men's Footballers in the 2020 league campaign and 2021 championship campaign, Minor Men's Footballers in 2021 and 2023, Minor Ladies' Footballers in 2022 and the Adult Men's 4th Football team in 2020 and 2021.</p>
+    -->
+
+  <!--Skills-->
+  <section class="mb-4" id="skills">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75">
+      <h3>Skills</h3>
+      <!--Accordion of skills-->
+      <div class="accordion" id="skillsaccordion">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Interpersonal/Communication Skills
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+            data-bs-parent="#skillsaccordion">
+            <div class="accordion-body">
+              Through my work as a data analyst, my volunteer work with my GAA club, as well as my previous role as a
+              part-time retail-assistant, I have developed exceptional communication and interpersonal skills.</div>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+              Teamwork
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+            data-bs-parent="#skillsaccordion">
+            <div class="accordion-body">
+              In many aspects of my life, teamwork is key. Whether it be playing on a hurling team, working in the
+              background as part of an analysis team, as part of an inventory control team or in a busy retail
+              environment, I’ve got plenty of experience working as part of a team over the years.</div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+              Data Engineering
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+            data-bs-parent="#skillsaccordion">
+            <div class="accordion-body">
+              Experience in both professional and voluntary roles in creating data pipelines to aid with data cleaning,
+              migration and storage for further analysis.</div>
+          </div>
+        </div>
+
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFour">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+              Problem Solving
+            </button>
+          </h2>
+          <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+            data-bs-parent="#skillsaccordion">
+            <div class="accordion-body">
+              Plenty of experience problem solving, from working in a busy retail environment such as Penney’s to my
+              volunteer work in the GAA and my work at BMS.</div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingFive">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+              Data Analysis and Visualisation
+            </button>
+          </h2>
+          <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+            data-bs-parent="#skillsaccordion">
+            <div class="accordion-body">
+              Proficient in analysing data with Python and Excel, or other similar spreadsheet programs through my work
+              in the past. Experience using Python libraries such as Pandas to import the data, and create graphs with
+              that data with Matplotlib. Can create graphs for PowerPoint slides using Excel’s graphing capabilities
+              (see here). Some experience using SQL.</div>
+          </div>
+        </div>
+
+
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingSix">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+              data-bs-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+              Web Development
+            </button>
+          </h2>
+          <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix"
+            data-bs-parent="#skillsaccordion">
+            <div class="accordion-body">
+              Have plenty of experience designing and developing websites using the likes of HTML, CSS, JavaScript,
+              Django, Bootstrap and SQL.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--Hobbies and Interests-->
+  <section class="mb-4" id="hobbies">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75">
+      <h3>Hobbies and interests</h3>
+      <p> I play Gaelic football for Round Tower in Clondalkin, and I am an analyst for Dublin Senior Men's Footballers.
+        I also enjoy watching football and regularly go to Shamrock Rovers matches both home and away.</p>
+    </div>
+  </section>
+
+  <!--Contact-->
+  <footer id="contact">
+    <div class="container-fluid p-5 bg-dark text-white text-center w-75" id="contact">
+      <h3>Contact</h3>
+      <p>Phone Number: 089 252 6254<br>Email: <a href="mailto:x00197631@mytudublin.ie">x00197631@mytudublin.ie</a></p>
+
+      <div class="ratio ratio-16x9">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7809.962497056908!2d-6.378169967036873!3d53.29064369084288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48670b4b8ec071f5%3A0xb6cf7501e0d9522a!2sTU%20Dublin%2C%20Tallaght!5e0!3m2!1sen!2sie!4v1765943636841!5m2!1sen!2sie"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+
+    </div>
+  </footer>
+
+  <style>
+    html {
+      scroll-behavior: smooth;
+      /*https://www.w3schools.com/cssref/pr_scroll-behavior.php*/
+    }
+  </style>
+
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
